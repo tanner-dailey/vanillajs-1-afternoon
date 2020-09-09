@@ -34,3 +34,9 @@
     text-align: center;
     font-size: 2em;
 }
+
+button {
+    height: 50px;
+    width: 75px;
+    margin-left: 90vw;
+}

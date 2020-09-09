@@ -15,25 +15,26 @@
   <main>
     <table>
       <tr class="row">
-        <td id="0" onclick="play(0)"></td>
-        <td id="1" onclick="play(1)"></td>
-        <td id="2" onclick="play(2)"></td>
+        <td id="0" onclick="play(0); this.onclick=null;"></td>
+        <td id="1" onclick="play(1); this.onclick=null;"></td>
+        <td id="2" onclick="play(2); this.onclick=null;"></td>
       </tr>
       <tr class="row">
-        <td id="3" onclick="play(3)"></td>
-        <td id="4" onclick="play(4)"></td>
-        <td id="5" onclick="play(5)"></td>
+        <td id="3" onclick="play(3); this.onclick=null;"></td>
+        <td id="4" onclick="play(4); this.onclick=null;"></td>
+        <td id="5" onclick="play(5); this.onclick=null;"></td>
       </tr>
       <tr class="row">
-        <td id="6" onclick="play(6)"></td>
-        <td id="7" onclick="play(7)"></td>
-        <td id="8" onclick="play(8)"></td>
+        <td id="6" onclick="play(6); this.onclick=null;"></td>
+        <td id="7" onclick="play(7); this.onclick=null;"></td>
+        <td id="8" onclick="play(8); this.onclick=null;"></td>
       </tr>
     </table>
     <span>Player </span>
     <span id="player">X</span>
     <span>'s turn</span>
+    <button onclick="reset()">RESET</button>
   </main>
+  <script src="index.js"></script>
 </body>
-
 </html>
